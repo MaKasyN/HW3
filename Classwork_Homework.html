@@ -3,8 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Homework</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="js/index.js"></script>
 </head>
 <body>
+    <div class="content-container">
+        <p id="timer"></p>
+        <div class="button-containet">
+            <button class="back" onclick="startFunction()">
+                start
+            </button>
+            <button class="last-element" onclick="stopFunction()">
+                stop
+            </button>
+            <button class="first-element" onclick="resetTimer()">
+                reset
+            </button>
+            <button class="first-element" onclick="revert()">
+                revert
+            </button>
+        </div>
+    </div>
 <!--     Создайте счетчик секунд, который начинает отчет с 1 и заканчивается на 30, также добавьте кнопки который останавливают отчет, и запускают его заново и добавьте кнопку обнуляющую отcчет. Также попробуйте изменить код так чтобы отчет начинался с 30 и заканчивался на 1. -->
 </body>
 </html>
